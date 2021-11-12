@@ -1,0 +1,134 @@
+@import url("https://fonts.googleapis.com/css2?family=Comforter&family=El+Messiri&display=swap");
+
+* {
+  margin: 0;
+  padding: 0;
+  font-family: "El Messiri";
+}
+body {
+  position: absolute;
+  overflow-x: hidden;
+  top: 0px;
+  left: 0px;
+}
+h2 {
+  font-size: 2.5rem;
+  position: absolute;
+  left: 40vw;
+}
+/* Home */
+img {
+  height: 100vh;
+  margin-top: -50px;
+}
+h1 {
+  font-family: "Comforter";
+  position: relative;
+  font-size: 6rem;
+  left: 60vw;
+  top: -60vh;
+}
+
+#home p {
+  position: relative;
+  font-size: 1.5rem;
+  left: 66vw;
+  top: -60vh;
+}
+#home span {
+  padding-right: 5px;
+  padding-left: 5px;
+  background-color: rgba(255, 243, 239, 0.767);
+}
+.date {
+  font-style: italic;
+  left: 69.5vw;
+}
+#home {
+  height: 100vh;
+}
+
+/* Navigation */
+
+nav {
+  position: relative;
+  left: 57vw;
+  padding-top: 20px;
+  background-color: white;
+  z-index: 10;
+}
+li {
+  display: inline;
+  margin-left: 30px;
+  font-size: 1.2rem;
+}
+a {
+  text-decoration: none;
+  color: #000000;
+}
+/* Biography */
+
+#bio {
+  height: 80vh;
+  width: 100vw;
+  background-color: rgba(255, 243, 239, 0.767);
+  margin-top: -50px;
+}
+.img {
+  position: absolute;
+  right: 12.5vw;
+  width: 40vw;
+  height: 80vh;
+  clip-path: polygon(22% 0, 100% 0, 78% 100%, 0% 100%);
+  background-image: url("./bio.png");
+  background-size: cover;
+}
+#bio p {
+  position: relative;
+  top: 30vh;
+  left: -20vw;
+  text-align: center;
+  font-size: 1.2rem;
+  font-weight: 600;
+}
+/* Contribution */
+#contribution {
+  background-color: #ffffff;
+  padding: 50px 70px;
+  width: 100vw;
+  height: 75vh;
+}
+#contribution img {
+  margin: 30px;
+  height: 65vh;
+}
+#contribution p {
+  position: relative;
+  top: -70vh;
+  left: 15vw;
+  text-align: center;
+  font-size: 1.2rem;
+  font-weight: 600;
+}
+
+/* Algorithm */
+#algorithm {
+  background-color: rgba(212, 212, 212, 0.74);
+  width: 100vw;
+  padding-bottom: -20vh;
+}
+
+#algorithm p {
+  position: relative;
+  top: 30vh;
+  left: -20vw;
+  text-align: center;
+  font-size: 1.2rem;
+  font-weight: 600;
+}
+#algorithm img {
+  position: relative;
+  top: -25vh;
+  left: 50vw;
+  height: 65vh;
+}
